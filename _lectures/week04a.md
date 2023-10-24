@@ -16,7 +16,7 @@ Andrew and I have gone through all 12 teams Kanban boards to give you some indiv
 
 # Today:
 * Everyone do a standup on team01
-* If you are ready to submit on Canvas, submit then start team02 (the repos, starter code, kanban boards, etc. will be in place by 2pm).   Teams that have submitted on Canvas can get started. 
+* If you are ready to submit on Canvas, submit then start [team02](https://ucsb-cs156.github.io/f23/lab/team02.html) (the repos, starter code, kanban boards, etc. will be in place by 2pm).   Teams that have submitted on Canvas can get started. 
 * If not done with team01, work as a team on finishing team01 with the goal of submitting before midnight.
 * Consider planning ahead for some time outside of class to work on team02.
 
