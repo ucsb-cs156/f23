@@ -18,7 +18,10 @@ participation_activity_date: "Thursday 07/13/2023"
 demo_deployment: http://team01.dokku-00.cs.ucsb.edu
 sample_team: f23-9am-3
 teams_list: https://bit.ly/cs156-f23-teams
+canvas: https://ucsb.instructure.com/courses/14657/assignments/165183
 ---
+
+Canvas link: <{{page.canvas}}>
 
 # First team programming assignment: Spring Backend, and working with APIs
 
@@ -822,7 +825,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   <img width="465" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/434dceb9-77a3-4ce6-9c28-a5faf4e0be1d">
 
 * Set up starter code in the course organization, and update links
-* Create a Canvas assignment for team01
+* Create a Canvas assignment for team01; update the due dates and publish it
 * Create projects for all of the groups. You can find a script for this here:
   * <https://github.com/ucsb-cs156-f23/project-creator/blob/main/scripts/team01-projects.sh>
   You will probably need to make a new copy of that repo for this quarter in this
