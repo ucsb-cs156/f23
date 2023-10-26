@@ -58,6 +58,22 @@ For team02, the Kanban board is populated by the staff before you start using th
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
 please check in with the staff.  
 
+## Dokku prod deployments 
+
+These deployments should track the `main` branch.  **You will need to manually redeploy** after you merge each pull request, with these commands (adapted for your team; the example shows 7pm-1):
+
+```
+dokku git:sync team02 https://github.com/ucsb-cs156-f23/team02-f23-7pm-1 main
+dokku ps:rebuild team02
+```
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+| [{{page.title}}-{{site.qxx}}-5pm-1](https://dokku-01.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-1](https://dokku-05.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-1](https://dokku-09.cs.ucsb.edu/{{page.title}}) |
+| [{{page.title}}-{{site.qxx}}-5pm-2](https://dokku-02.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-2](https://dokku-06.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-2](https://dokku-10.cs.ucsb.edu/{{page.title}}) |
+| [{{page.title}}-{{site.qxx}}-5pm-3](https://dokku-03.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-3](https://dokku-07.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-3](https://dokku-11.cs.ucsb.edu/{{page.title}}) |
+| [{{page.title}}-{{site.qxx}}-5pm-4](https://dokku-04.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-4](https://dokku-08.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-4](https://dokku-12.cs.ucsb.edu/{{page.title}}) |
+
 
 ## Work on your own laptop, not CSIL
 
