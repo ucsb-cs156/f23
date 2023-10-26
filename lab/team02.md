@@ -69,10 +69,10 @@ dokku ps:rebuild team02
 
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
-| [{{page.title}}-{{site.qxx}}-5pm-1](https://dokku-01.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-1](https://dokku-05.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-1](https://dokku-09.cs.ucsb.edu/{{page.title}}) |
-| [{{page.title}}-{{site.qxx}}-5pm-2](https://dokku-02.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-2](https://dokku-06.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-2](https://dokku-10.cs.ucsb.edu/{{page.title}}) |
-| [{{page.title}}-{{site.qxx}}-5pm-3](https://dokku-03.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-3](https://dokku-07.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-3](https://dokku-11.cs.ucsb.edu/{{page.title}}) |
-| [{{page.title}}-{{site.qxx}}-5pm-4](https://dokku-04.cs.ucsb.edu/{{page.title}}) | [{{page.title}}-{{site.qxx}}-6pm-4](https://dokku-08.cs.ucsb.edu/{{page.title}})  | [{{page.title}}-{{site.qxx}}-7pm-4](https://dokku-12.cs.ucsb.edu/{{page.title}}) |
+| 5pm-1: <https://dokku-01.cs.ucsb.edu/{{page.title}}> | 6pm-1: <https://dokku-05.cs.ucsb.edu/{{page.title}}> |  7pm-1: <https://dokku-09.cs.ucsb.edu/{{page.title}}> |
+| 5pm-2: <https://dokku-02.cs.ucsb.edu/{{page.title}}> | 6pm-2: <https://dokku-06.cs.ucsb.edu/{{page.title}}> |  7pm-2: <https://dokku-10.cs.ucsb.edu/{{page.title}}> |
+| 5pm-3: <https://dokku-03.cs.ucsb.edu/{{page.title}}> | 6pm-3: <https://dokku-07.cs.ucsb.edu/{{page.title}}> |  7pm-3: <https://dokku-11.cs.ucsb.edu/{{page.title}}> |
+| 5pm-4: <https://dokku-04.cs.ucsb.edu/{{page.title}}> | 6pm-4: <https://dokku-08.cs.ucsb.edu/{{page.title}}> |  7pm-4: <https://dokku-12.cs.ucsb.edu/{{page.title}}> |
 
 
 ## Work on your own laptop, not CSIL
