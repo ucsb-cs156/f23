@@ -124,7 +124,7 @@ Preparation for first retro
   @channel One small thing to do before class today if possible (< 5 minutes)
   Please see the link labelled GDrive at the top of this channel.
   Please verify that when logged in with your UCSB Google account, that you can open this folder.
-  You should see a document inside called "retro1".
+  You should see a document inside called "retro1.docx".
   Inside that document, in Part 4, is a list where should enter your name.  Go ahead and do that now.
   This will serve as a check that everyone has write access to this document before class today.
   If you have trouble, please post a note on the channel, and mention @phtcon
