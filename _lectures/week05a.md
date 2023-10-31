@@ -1,7 +1,7 @@
 ---
 title: "Week 05a - 10.31 Tue"
 lecture_date: 2023-10-31
-description: "Retrospective, H01 assigned, work on team02"
+description: "Retrospective, H02 assigned, work on team02"
 ready: true
 layout: default
 parent: lectures
