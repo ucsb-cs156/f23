@@ -6,7 +6,7 @@ ready: true
 layout: default
 parent: lectures
 slides: 
-canvas_retro_submission: 
+canvas_retro_submission: https://ucsb.instructure.com/courses/14657/assignments/165168
 ---
 
 # Announcements
