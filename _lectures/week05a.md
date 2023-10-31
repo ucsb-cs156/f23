@@ -11,6 +11,14 @@ canvas_retro_submission: https://ucsb.instructure.com/courses/14657/assignments/
 
 # Announcements
 
+# Try to wrap up team02
+
+Tomorrow in section, we'll be releasing team03, so try to wrap up team02 and submit on Canvas before then.
+
+If you still need help with team02, we'll still be offering help on Wednesday and Thursday, but we strongly encourage you to wrap up team02 asap.
+
+We want to start the legacy code projects by week 7, so we need to wrap up both team02 and team03 within week 5 (this week) and 6 (next week).
+
 ## Homework assignment H02
 
 Homework assignment [H02](https://ucsb-cs156.github.io/f23/hwk/h02/) covers Javascript.
