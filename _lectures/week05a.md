@@ -120,13 +120,20 @@ Preparation for first retro
 * Create `retro1` document inside each of those folders
 * Paste content inside each 
 * For each team slack channel, send this message:
-  ```
+  
   @channel One small thing to do before class today if possible (< 5 minutes)
-  Please see the link labelled GDrive at the top of this channel.
+  Please see the link labelled gdrive at the top of this channel.
   Please verify that when logged in with your UCSB Google account, that you can open this folder.
-  You should see a document inside called "retro1.docx".
-  Inside that document, in Part 4, is a list where should enter your name.  Go ahead and do that now.
+  You should see a document inside called `retro1.docx`.
+  Inside that document, in Part 4, is a place for each team member to enter their name next
+  to prompts: "Team member 1:  Name: _____________________________", etc.
+  
+  Find the first available blank, and enter your name. Go ahead and do that now.
+  
+  The order is unimportant; we just want each of the six team members to reserve a
+  portion of the document for themselves.   The rest, you can do in class today.
+  
   This will serve as a check that everyone has write access to this document before class today.
   If you have trouble, please post a note on the channel, and mention @phtcon
-  ```
+  
 </details>
