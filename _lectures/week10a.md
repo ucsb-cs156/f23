@@ -1,5 +1,5 @@
 ---
-title: "Week 10a - 08.29 Tue"
+title: "Week 10a - 12.05 Tue"
 lecture_date: 2023-12-05
 description: "Starting your presentations"
 ready: true
