@@ -321,13 +321,18 @@ The Kanban boards for team03 are set up here:
 
 | Team | Kanban Board |
 |------|--------------|
-|f23-9am-1 | <https://github.com/orgs/ucsb-cs156-f23/projects/19/views/1>|
-|f23-9am-2 | <https://github.com/orgs/ucsb-cs156-f23/projects/20/views/1>|
-|f23-9am-3 | <https://github.com/orgs/ucsb-cs156-f23/projects/21/views/1>|
-|f23-10am-1 | <https://github.com/orgs/ucsb-cs156-f23/projects/22/views/1>|
-|f23-10am-2 | <https://github.com/orgs/ucsb-cs156-f23/projects/23/views/1>|
-|f23-10am-3 | <https://github.com/orgs/ucsb-cs156-f23/projects/24/views/1>|
-|f23-10am-4 | <https://github.com/orgs/ucsb-cs156-f23/projects/49/views/1> |
+|f23-5pm-1 | <https://github.com/orgs/ucsb-cs156-f23/projects/30>|
+|f23-5pm-2 | <https://github.com/orgs/ucsb-cs156-f23/projects/31>|
+|f23-5pm-3 | <https://github.com/orgs/ucsb-cs156-f23/projects/32>|
+|f23-5pm-4 | <https://github.com/orgs/ucsb-cs156-f23/projects/33>|
+|f23-6pm-1 | <https://github.com/orgs/ucsb-cs156-f23/projects/34>|
+|f23-6pm-2 | <https://github.com/orgs/ucsb-cs156-f23/projects/35>|
+|f23-6pm-3 | <https://github.com/orgs/ucsb-cs156-f23/projects/36>|
+|f23-6pm-4 | <https://github.com/orgs/ucsb-cs156-f23/projects/37>|
+|f23-7pm-1 | <https://github.com/orgs/ucsb-cs156-f23/projects/38>|
+|f23-7pm-2 | <https://github.com/orgs/ucsb-cs156-f23/projects/39>|
+|f23-7pm-3 | <https://github.com/orgs/ucsb-cs156-f23/projects/40>|
+|f23-7pm-4 | <https://github.com/orgs/ucsb-cs156-f23/projects/41>|
 
 The issues on your Kanban board can be grouped as follows:
 
