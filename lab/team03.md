@@ -37,6 +37,49 @@ We are focusing on learning these new React concepts:
 * Using `npx stryker run` to run mutation coverage
 * Using `npm run storybook` to visualize frontend components in isolation
 
+
+## Repos for team02
+
+Here are the links to the repos for team02
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+|[{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-1)|[{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-1)|[{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-1)|
+|[{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-2)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-2)|[{{page.title}}-{{site.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-2)|
+|[{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-3)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-3)|[{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-3)|
+|[{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-4)|[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-4)|[{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-4)|
+
+## Project boards (also called Kanban boards):
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+| [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/30) |[{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/34) | [{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/39) |
+| [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/31)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/35)| [{{page.title}}-{{site.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/40)|
+| [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/32)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/36)| [{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/41)|
+| [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/33) |[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/37) | [{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/42) |
+
+For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
+{{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
+please check in with the staff.  
+
+## Dokku prod deployments 
+
+These deployments should track the `main` branch.  **You will need to manually redeploy** after you merge each pull request, with these commands (adapted for your team; the example shows 7pm-1):
+
+```
+dokku git:sync team03 https://github.com/ucsb-cs156-f23/team03-f23-7pm-1 main
+dokku ps:rebuild team03
+```
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+| 5pm-1: <https://dokku-01.cs.ucsb.edu/{{page.title}}> | 6pm-1: <https://dokku-05.cs.ucsb.edu/{{page.title}}> |  7pm-1: <https://dokku-09.cs.ucsb.edu/{{page.title}}> |
+| 5pm-2: <https://dokku-02.cs.ucsb.edu/{{page.title}}> | 6pm-2: <https://dokku-06.cs.ucsb.edu/{{page.title}}> |  7pm-2: <https://dokku-10.cs.ucsb.edu/{{page.title}}> |
+| 5pm-3: <https://dokku-03.cs.ucsb.edu/{{page.title}}> | 6pm-3: <https://dokku-07.cs.ucsb.edu/{{page.title}}> |  7pm-3: <https://dokku-11.cs.ucsb.edu/{{page.title}}> |
+| 5pm-4: <https://dokku-04.cs.ucsb.edu/{{page.title}}> | 6pm-4: <https://dokku-08.cs.ucsb.edu/{{page.title}}> |  7pm-4: <https://dokku-12.cs.ucsb.edu/{{page.title}}> |
+
+
+
 ## Work on your own laptop, not CSIL
 
 You should be working with a Java and Node (Javascript) setup on your
