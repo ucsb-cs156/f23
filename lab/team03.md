@@ -43,7 +43,7 @@ You should be working with a Java and Node (Javascript) setup on your
 own laptop by this point, not on CSIL.
 
 For advice on what to install, see: 
-* <https://ucsb-cs156.github.io/m23/info/software.html>
+* <https://ucsb-cs156.github.io/f23/info/software.html>
 
 If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
 
