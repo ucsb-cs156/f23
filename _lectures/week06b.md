@@ -1,18 +1,16 @@
 ---
-title: "Week 06b - 08.03 Thu"
+title: "Week 06b - 11.08 Wed"
 lecture_date: 2023-11-08
-description: "Retro on team02 (unless done Tue), Start team03"
+description: "Retro on team02 (and team03 so far)"
 ready: true
 layout: default
 parent: lectures
 slides: 
 ---
 
-# If you didn't do a retro on team02 Tuesday, do it today
+# retro2: retro on team02 (and team03 so far)
 
-Remember that a decent retro should take at least 30 minutes.
-
-If you are done faster, maybe you aren't going deep enough.
+Find the retro outline and instructions on the same gdrive where you completed retro1.
 
 As you put down your stop/start/continue items, ask yourself: are the items specific?
 
@@ -23,52 +21,31 @@ For example:
 You may know at the time of the discussion, but if you come back to it a week or two later, you might not remember.
 So try to be as specific as possible.
 
-# Check your team02 retro document: did you analyze last retro's experiment?
+When finished, submit your retro document on Canvas for a participation grade.  Only one submission needed per team.
 
-Whether you did your team02 retro on Tuesday, or you're doing it today, make
-sure that it includes all of the things from retro1 PLUS an analysis of your
-experiment from last time.
-
-# If/when done with team02 retro, start on team03.
-
-First, everyone read through the writeup here:
-* <https://ucsb-cs156.github.io/f23/lab/team03.html>
-
-Then, divide up the six tables and note who is doing what on your Slack channel.
-* It can be the the same tables as for team02, or you can switch things up.
-* It's fine either way.  
-
-Then, be sure that you assign yourself an issue and drag it to the In Progress column, and then get started!
-
-
-# Second retro instructions
-
-Click the triangle for details
+# Instructor notes
 
 <details markdown="1">
 <summary>
-Details of how to do Retro 2
+Click for instructor notes
 </summary>
+  
+* Be sure that the google drive folders are populated with the retro worksheet.
+* Set up the Canvas assignment (see below)
 
-* Review how to do a retro: <https://ucsb-cs156.github.io/topics/agile/agile_retros.html>
-* Then, go to your folder on Google Drive (the link should be pinned to your slack channel)
-* Create a new document Retro2 similar to Retro1
-* Conduct a retro following the same basic instructions from here:
-  - <https://ucsb-cs156.github.io/f23/lectures/week05a/#retrospective-the-heart-of-agile>
+Important instructions for the 
+* Be sure that the Canvas assignment is initially set to "Group" with "Assign Grades to Students Individually" **NOT** checked, like this:
+  <img width="425" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/677f9555-df16-4f46-b959-3987ebcfc1b9">
+* Then, only **after** assigning the grades for ALL groups, uncheck that box and change the grades of students that didn't participate, or whose participation should not earn full credit, like this:
+  <img width="456" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/98e58e8c-1c69-4482-af77-0aab93e737b0">
 
-One change to the instructions: before deciding on a new experiment, have a discussion of the experiment from your last retro.
-- Read the experiment from your Retro1 document.
-- In your Retro2 document, make a section "Last Retros Experiment"
-- Copy/paste the description of the experiment.
-- Then, invite each member of the team to write something on the slack channel indicating whether they thought
-  the experiment had a successful outcome, a failed outcome, an indeterminate outcome (can't tell) or a mix,
-  and why.  But don't press enter until there's a signal that everyone is finished.
-- Then you call all press enter and see what each other wrote.
-- Discuss. If possible come to a consensus summary.  If a consensus doesn't emerge after a few minutes of discussion,
-  then you can "agree to disagree".
-- Write down either a summary of your consensus, or a summary of your differing opinions.
+Here's why that sequence is important if you want to maximize efficiency:
+* If you don't check the group grade box, then each student must submit individually, and you have to grade each student individually (bad for both student and instructor)
+* If you check the group grade box, but also check the grade students individually box, then you have to grade each student individually. (ok for student, but bad for instructor)
+* But if you follow the workflow above, then only one student has to submit for the whole team (good for student), and then you can grade at the group level (12-16 grades instead of 72-96 grades, good for instructor!) and since the normal case is all team members getting the same score, you can then just put in the exceptions (the few individuals with something other than the shared group grade) individually.
 
-Then, come up with a new experiment for this Retro.  It can be a variation on the old one (i.e. a different approach to the same problem), or could be entirely different (some other aspect of the team's performance.)
+One caution: if you don't check the "individual grade" box BEFORE starting to change individual grades, then any change you make to an individual grades *automatically impacts everyone on the team". For example, if you give the team a 95, but then give team member Bob a zero, then all six members of the team get the zero: not good!  Instead, check the "Assign Grades to Students Individually" box after grading all teams, but before modifying any individuals grade. Then it all works as you intend: you grade each group, then only grade the individuals that are "exceptions".
+
+The only bad thing about this workflow is that you may need to manually keep track of the individual exceptions in a separate document or spreadsheet as you make your first grading pass; there isn't any way I know of within canvas to make those notations on the first pass as long as "Assign Grades to Students Individually" is still unchecked.
 
 </details>
-
