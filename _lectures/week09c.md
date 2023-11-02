@@ -1,18 +1,20 @@
 ---
-title: "Week 09c - 08.25 Fri"
+title: "Week 09c - 11.30 Thu"
 lecture_date: 2023-11-30
-description: "TBD"
+description: "Final PRs due 2pm today (code reviews may continue)"
 ready: true
 layout: default
 parent: lectures
 slides: 
 ---
 
-Final Pull Requests for legacy code projects are due by 9am today.
+Final Pull Requests for legacy code projects are due by 2pm today.
 
-Each of those should be code reviewed by a team member by noon today.
+Each of those should be green on CI and code reviewed by a team member by 3:15pm today.
 
-After that, the only work will be work necessary to get those remaining PRs merged (e.g. responding to peer and/or staff code reviews.)
+Any PRs not in that state by 3:15pm today *might not be reviewed and merged by staff* in time to count towards your project grade.
+
+After 3:15pm today, the only work accepted for credit will be work necessary to get those remaining PRs merged (e.g. responding to peer and/or staff code reviews.)
 
 # If your team is already at 100 points
 
