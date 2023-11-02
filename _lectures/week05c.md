@@ -83,9 +83,23 @@ Team03
 
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
-| [team03-{{site.qxx}}-5pm-
-1](https://github.com/orgs/{{page.github_org}}/projects/30) |[team03-{{site.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/34) | [team03-{{site.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/38) |
+| [team03-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/30) |[team03-{{site.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/34) | [team03-{{site.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/38) |
 | [team03-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/31)|[team03-{{site.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/35)| [team03-{{site.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/39)|
 | [team03-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/32)|[team03-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/36)| [team03-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/40)|
 | [team03-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/33) |[team03-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/37) | [team03-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/41) |
 
+# Reflection and the Instant Retro
+
+While sprint retrospectives (retros) offer a structured opportunity for reflection, **reflection is a good practice at all times**.  
+
+There is a practice in Agile called the "**instant retro**", which is where, on any day, at any time, if something interesting happens (good or bad), the team may choose to go into "retro mode" for 5 minutes, or 15 minutes or whatever seems appropriate, to pause and reflect on that one interesting thing, and whether it suggests something the team wants to "stop", "start" or "continue".
+
+Observations about things the team should "stop". "start" or "continue" may be made **at any time**, not just during formal structured retros.
+
+You can also make "personal retro" observations about your own practice in the slack channel.  For example:
+> Personal retro observation: <br />
+> If I start running one test at a time with<br />
+> `mvn test -Dtest=ControllerName\#method_name` instead of running the full `mvn test` every time, <br />
+> then I expect that I'll find the root cause of failing tests faster and I will be more productive.
+
+You are encouraged to consider adopting this practice.
