@@ -10,7 +10,6 @@ slides:
 
 * Final CATME survey should be released today
 * Post survey should be released today
-* Take home final released 2pm today (due 5pm Friday)
 * Please fill out your ESCIs (course evaluations)
 
 # Today:
@@ -52,7 +51,6 @@ Getting PRs merged
 
 # Getting PRs merged
 
-  
 Let me encourage you to take the PR that's at the head of the queue (i.e. the oldest one for your team), and if it's in a mergeable state (i.e. passing CI/CD, has peer code review, no outstanding changes requested) then deploy it to your QA branch, with a post like this one:
 
 
@@ -200,6 +198,10 @@ Please then also poll your team members and let me know your thoughts about the 
 Example Videos (these teams gave me permission to share them publically)
 </summary>
 
+  
+* [m23-10am-2-happycows](https://drive.google.com/file/d/1gSt0yLrAp8OWJ8g52vM8EDlN65VfojjE/view?usp=sharing)
+* [m23-10am-4-happycows](https://www.youtube.com/watch?v=LFC8m_KjoD0)
+
 * [f22-5pm-1 courses](https://www.youtube.com/watch?v=qVludXu1n9c)
 * [f22-5pm-2 courses](https://www.youtube.com/watch?v=TJCToeTyasw)
 * [f22-5pm-3 happycows](https://drive.google.com/file/d/1lNaRYu-LNSv03MrwPxWYezMXH9pkaeBY/view?usp=sharing)
@@ -219,5 +221,11 @@ Example Videos (these teams gave me permission to share them publically)
 * [w22-6pm-2 courses](https://youtu.be/g3xrcSSBOGs)
 * [w22-5pm-2 courses](https://www.youtube.com/watch?v=OYj6NVf9-ls)
 * [w22-7pm-3 happycows](https://youtu.be/RJ8Tf_xfN9E)
+
+These videos are available to CS156 students/staff only (restricted via Canvas login)
+
+* [m23-10am-1-happycows](https://ucsb.instructure.com/courses/14657/files/folder/Videos?preview=1686608) [Available to CS156 students/staff only)
+
+
   
 </details>
