@@ -170,10 +170,10 @@ If GitHub Actions are already enabled:
 <tbody>
 <tr>
 <td>
-<img width="600" alt="Github Actions Not Enabled" src="https://github.com/ucsb-cs156/f23/assets/1119017/f7bf5805-6c59-478b-bf4a-99c3c404cd1f">
+<img width="476" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/a7d67508-1a03-4215-a1de-e63bc58cddd0">
 </td>
 <td>
-<img width="600" alt="Github Actions Enabled" src="https://github.com/ucsb-cs156/f23/assets/1119017/72aa27eb-aa7a-4c7f-80c7-b7226332ed12">
+<img width="984" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/1a60521f-474d-4bbd-a8eb-3c0c66dc134f">
 </td>
 </tr>
 </tbody>
