@@ -1,7 +1,7 @@
 ---
 title: "Week 10c - 12.07 Thu"
 lecture_date: 2023-12-07
-description: "Review of final deadlines, final exam, plus time to work on release notes/videos"
+description: "Final Retro, plus Review of final deadlines, final exam"
 ready: true
 layout: default
 parent: lectures
@@ -24,4 +24,12 @@ slides:
 * You'll be doing live demos of your code, and reviewing all of the other team's code.
 * This requires synchronous participation either live or on zoom.
 
-* 
+# Today: retro4
+
+Please look in the usual spot (gdrive link on your slack channel) for the retro4 worksheet.
+
+This retro is a little different from the rest, in the sense that it is a sort of "exit interview" for the team. 
+
+There is no further work ahead of the team, so instead of focusing on how the team can improve, it is focused more on
+what learnings from your time together you'll take with you to future work on team software development projects.
+Other than that, it's like any other retro.
