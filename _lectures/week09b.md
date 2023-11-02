@@ -1,5 +1,5 @@
 ---
-title: "Week 09b - 08.24 Thu"
+title: "Week 09b - 11.29 Wed"
 lecture_date: 2023-11-29
 description: "Work on legacy code projects"
 ready: true
