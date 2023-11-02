@@ -103,3 +103,23 @@ You can also make "personal retro" observations about your own practice in the s
 > then I expect that I'll find the root cause of failing tests faster and I will be more productive.
 
 You are encouraged to consider adopting this practice.
+
+
+# Staff Information
+Information below is intended for staff.  You are welcome to look at it, but the intended audience is instructors/LAs/TAs
+
+<details markdown="1">
+<summary>
+ Click triangle for information for staff
+</summary>
+
+Please check the kanban boards for your assigned teams to see that the team has six issues in progress, one per team member.
+
+| Staff Member | 5pm | 6pm | 7pm |
+|--------------|-----|-----|-----|
+| Andrew |  [team03-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/30) |[team03-{{site.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/34) | [team03-{{site.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/38) |
+| Jing / Bobby | [team03-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/31)|[team03-{{site.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/35)| [team03-{{site.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/39)|
+| Sangita | [team03-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/32)|[team03-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/36)| [team03-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/40)|
+| Leon | [team03-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/33) |[team03-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/37) | [team03-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/41) |
+
+</details>
