@@ -1,7 +1,7 @@
 ---
 title: "Week 06b - 11.08 Wed"
 lecture_date: 2023-11-08
-description: "Retro on team02 (and team03 so far)"
+description: "Work on team03 (retro2 moved to next Tuesday)"
 ready: true
 layout: default
 parent: lectures
