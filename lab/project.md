@@ -68,10 +68,10 @@ Open this section for links to the legacy code project resources
 
 
 {% for section in page.sections %}
-## {{ section.time }} - {{section.project_name}}
+## {{ section["time"] }} - {{ section["project_name"] }}
 
 {% for team in section.teams %}
-* {{ team.project_id}}
+* {{ team["project_id"] }}
 {% endfor %}
 
 {% endfor %}
