@@ -9,57 +9,90 @@ layout: default
 parent: lab
 num: project
 nav_order: 300
-f23_9am_1: https://github.com/orgs/ucsb-cs156-f23/projects/55
-f23_9am_2: https://github.com/orgs/ucsb-cs156-f23/projects/52
-f23_9am_3: https://github.com/orgs/ucsb-cs156-f23/projects/54
-f23_10am_1: https://github.com/orgs/ucsb-cs156-f23/projects/57
-f23_10am_2: https://github.com/orgs/ucsb-cs156-f23/projects/53
-f23_10am_3: https://github.com/orgs/ucsb-cs156-f23/projects/56
-f23_10am_4: https://github.com/orgs/ucsb-cs156-f23/projects/51
 proj_courses_slack_url: tbd
 proj_happycows_slack_url: https://ucsb-cs156-s23.slack.com/archives/C058QUC16QP
 proj_gauchoride_slack_url: https://ucsb-cs156-s23.slack.com/archives/C0595EWELLA
 qxx: f23
+githubOrgUrl: https://github.com/ucsb-cs156-f23
+githubProjectsUrl: https://github.com/orgs/ucsb-cs156-f23/projects
+githubPagesUrl: https://ucsb-cs156-f23.github.io
 sections:
-  - 5pm:
+  - 
       time: 5pm
-      project_name: proj-happycows
+      product: proj-happycows
+      productShort: happycows
       teams:
-         - f23-5pm-1:
-             project_id: 100
-         - f23-5pm-2:
-             project_id: 101
-         - f23-5pm-3:
-             project_id: 102
-         - f23-5pm-4:
-             project_id: 103
-  - 6pm:
+        - 
+          num: 1
+          dokku: "01"
+          kanban: 1
+        - 
+          num: 2
+          dokku: "02"
+          kanban: 1
+        - 
+          num: 3
+          dokku: "03"
+          kanban: 1
+        - 
+          num: 4
+          dokku: "04"
+          kanban: 1
+  - 
       time: 6pm
-      project_name: proj-organic
+      product: proj-organic
+      productShort: organic
       teams:
-         - f23-6pm-1:
-             project_id: 104
-         - f23-6pm-2:
-             project_id: 105
-         - f23-6pm-3:
-             project_id: 106
-         - f23-6pm-4:
-             project_id: 107
-  - 7pm:
+        - 
+          num: 1
+          dokku: "05"
+          kanban: 1
+        - 
+          num: 2
+          dokku: "06"
+          kanban: 1
+        - 
+          num: 3
+          dokku: "07"
+          kanban: 1
+        - 
+          num: 4
+          dokku: "08"
+          kanban: 1
+  - 
       time: 7pm
-      project_name: proj-courses
+      product: proj-courses
+      productShort: courses
       teams:
-         - f23-7pm-1:
-             project_id: 108
-         - f23-7pm-2:
-             project_id: 109
-         - f23-7pm-3:
-             project_id: 110
-         - f23-7pm-4:
-             project_id: 111
+        - 
+          num: 1
+          dokku: "09"
+          kanban: 1
+        - 
+          num: 2          
+          dokku: "10"
+          kanban: 1
+        - 
+          num: 3
+          dokku: "11"
+          kanban: 1
+        - 
+          num: 4
+          dokku: "12"
+          kanban: 1
 ---
 
 # Links
+
+
+{% for section in page.sections %}
+## Section: {{ section.time }} ({{section.product}})
+
+| Team | Repo | Github Pages | Kanban | Dokku Prod | Dokku qa |
+|------|------|--------------|--------|------------|----------|{% for team in section.teams %}{% capture teamName %}{{page.qxx}}-{{section.time}}-{{ team.num }}{% endcapture %}{% capture repoName %}{{section.product}}-{{teamName}}{% endcapture %}
+|  {{teamName}} |  [ repo ]({{page.githubOrgUrl}}/{{repoName}}) |   [ github pages ]({{page.githubPagesUrl}}/{{repoName}}) | [ kanban ]({{page.githubProjectsUrl}}/{{team.kanban}}) | [ dokku prod ](https://{{section.productShort}}.dokku-{{team.dokku}}.cs.ucsb.edu) | [ dokku qa ](https://{{section.productShort}}-qa.dokku-{{team.dokku}}.cs.ucsb.edu) | {% endfor %}
+
+{% endfor %}
 
 <details markdown="1">
 <summary markdown="1">
@@ -67,14 +100,7 @@ Open this section for links to the legacy code project resources
 </summary>
 
 
-{% for section in page.sections %}
-## {{ section["time"] }} - {{ section["project_name"] }}
 
-{% for team in section.teams %}
-* {{ team["project_id"] }}
-{% endfor %}
-
-{% endfor %}
 
   
 </details>
@@ -226,48 +252,6 @@ For each, I've set up Google OAuth client id and client secret.
 <!-- I've also set up the `UCSB_API_KEY` and `MONGODB_URI` for the `courses` project.   -->
 You are welcome to use `dokku config:show app-name` to get these values and use them for your localhost setup.
 
-Links are provided below.
-
-# Links
-
-
-## 9am - gauchoride
-
-* Customers: Mike Fogelsonger (Director of Veterans and Military Services) and Student Health (who will be taking over the application.)  Drivers, and Riders of the service.
-
-| Team | Repo | Github Pages | Prod | QA |
-|--|--|--|--|--|
-| f23-9am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-1/) | [prod](https://proj-gauchoride.dokku-01.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-01.cs.ucsb.edu)
-| f23-9am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-2/) | [prod](https://proj-gauchoride.dokku-02.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-02.cs.ucsb.edu)
-| f23-9am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-3/) | [prod](https://proj-gauchoride.dokku-03.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-03.cs.ucsb.edu)
-| f23-9am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-4/) | [prod](https://proj-gauchoride.dokku-04.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-04.cs.ucsb.edu)
-
- 
-## 10am - happycows
-
-* Customer: Prof. Mattanjah de Vries, Distinguished Prof. of Chemistry, UCSB, and students in his classes.
-
-| Team | Repo | Github Pages | Prod | QA |
-|--|--|--|--|--|
-| f23-10am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-1/) | [prod](https://proj-happycows.dokku-04.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-04.cs.ucsb.edu) |
-| f23-10am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-2/) |[prod](https://proj-happycows.dokku-05.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-05.cs.ucsb.edu) |
-| f23-10am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-3/) |[prod](https://proj-happycows.dokku-06.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-06.cs.ucsb.edu) |
-| f23-10am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-4/) |[prod](https://proj-happycows.dokku-07.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-07.cs.ucsb.edu) |
- 
-<!-- ## 7pm - courses
-
-* Customer: All UCSB Students, Faculty, Staff and Admins
-* Central issues collection: <https://github.com/ucsb-cs156/proj-courses/issues>
-  - You can get issues from here to add to your own kanban boards
-
-| Team | Repo | Github Pages | Prod | QA |
-|--|--|--|--|--|
-| s23-7pm-1 | [repo](https://github.com/ucsb-cs156-s23/proj-courses-s23-7pm-1) | [pages](https://ucsb-cs156-s23.github.io/proj-courses-s23-7pm-1/) | [prod](https://proj-courses.dokku-09.cs.ucsb.edu) | [qa](https://proj-courses-qa.dokku-09.cs.ucsb.edu) |
-| s23-7pm-2 | [repo](https://github.com/ucsb-cs156-s23/proj-courses-s23-7pm-2) | [pages](https://ucsb-cs156-s23.github.io/proj-courses-s23-7pm-2/) | [prod](https://proj-courses.dokku-10.cs.ucsb.edu) | [qa](https://proj-courses-qa.dokku-10.cs.ucsb.edu) |
-| s23-7pm-3 | [repo](https://github.com/ucsb-cs156-s23/proj-courses-s23-7pm-3) | [pages](https://ucsb-cs156-s23.github.io/proj-courses-s23-7pm-3/) | [prod](https://proj-courses.dokku-11.cs.ucsb.edu) | [qa](https://proj-courses-qa.dokku-11.cs.ucsb.edu) |
-| s23-7pm-4 | [repo](https://github.com/ucsb-cs156-s23/proj-courses-s23-7pm-4) | [pages](https://ucsb-cs156-s23.github.io/proj-courses-s23-7pm-4/) | [prod](https://proj-courses.dokku-12.cs.ucsb.edu) | [qa](https://proj-courses-qa.dokku-12.cs.ucsb.edu) |
-  -->
-
 
 # Staff Information
 
@@ -300,6 +284,10 @@ We don't use the `fork` approach for this reason: If we created the team repos a
 fine if each of the teams was working on an independent set of tasks, but if the design is to have each of the teams work on the *same* set of tasks, then their PRs would clash and be redundant.
 
 So, instead, we create independent repos in the course organization for the class offering (e.g. <https://github.com/ucsb-cs156-f23>, or <https://github.com/ucsb-cs156-w24>, etc.) that are initially populated with the `main` branch of the repo from the <https://github.com/ucsb-cs156/> organization. 
+
+# Set up project channels
+
+In the Slack workspace, set up channels for each project:
 
 
 </details>
