@@ -411,16 +411,17 @@ Using a script such as the following, populate the repos from the starter code. 
 #!/bin/bash
 
 teams=" \
- f23-5pm-1 \
- f23-5pm-2 \
- f23-5pm-3 \
- f23-5pm-4"
+ f23-7pm-1 \
+ f23-7pm-2 \
+ f23-7pm-3 \
+ f23-7pm-4"
 
-starter=https://github.com/ucsb-cs156/proj-happycows.git
+project=courses
+starter=https://github.com/ucsb-cs156/proj-${project}.git
 
 for t in $teams; do
   echo "******* team: $t start ********"
-  r=proj-happycows-${t}
+  r=proj-${project}-${t}
   git clone git@github.com:ucsb-cs156-f23/${r}.git
   cd $r
   git checkout -b main
