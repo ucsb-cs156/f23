@@ -19,7 +19,65 @@ f23_10am_4: https://github.com/orgs/ucsb-cs156-f23/projects/51
 proj_courses_slack_url: tbd
 proj_happycows_slack_url: https://ucsb-cs156-s23.slack.com/archives/C058QUC16QP
 proj_gauchoride_slack_url: https://ucsb-cs156-s23.slack.com/archives/C0595EWELLA
+qxx: f23
+sections:
+  - 5pm:
+      time: 5pm
+      project_name: proj-happycows
+      teams:
+         - f23-5pm-1:
+             project_id: 100
+         - f23-5pm-2:
+             project_id: 101
+         - f23-5pm-3:
+             project_id: 102
+         - f23-5pm-4:
+             project_id: 103
+  - 6pm:
+      time: 6pm
+      project_name: proj-organic
+      teams:
+         - f23-6pm-1:
+             project_id: 104
+         - f23-6pm-2:
+             project_id: 105
+         - f23-6pm-3:
+             project_id: 106
+         - f23-6pm-4:
+             project_id: 107
+  - 7pm:
+      time: 7pm
+      project_name: proj-courses
+      teams:
+         - f23-7pm-1:
+             project_id: 108
+         - f23-7pm-2:
+             project_id: 109
+         - f23-7pm-3:
+             project_id: 110
+         - f23-7pm-4:
+             project_id: 111
 ---
+
+# Links
+
+<details markdown="1">
+<summary markdown="1">
+Open this section for links to the legacy code project resources    
+</summary>
+
+
+{% for section in page.sections %}
+## {{ section.time }} - {{section.project_name}}
+
+{% for team in section.teams %}
+* {{ team.project_id}}
+{% endfor %}
+
+{% endfor %}
+
+  
+</details>
 
 # The Assignment, Briefly.
 
