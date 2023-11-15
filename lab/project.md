@@ -377,7 +377,22 @@ Use the search box to find the project that matches the repo:
 
 Click to link the repo to the project.
 
+## Set access for teams to project
 
+For each project you'll need to set the team to have access.
+=
+If you've already configured the kanban board links on this page (following the instructions above), you can use this process to do this efficiently:
+
+1. Open the top of this page in its own browser window
+2. Use the "Open link in new tab" to open up each kanban board in its own tab, until you have twelve tabs next to this page, one per kanban board.
+3. For each kanban board, set the permissions, then close the tab.
+
+Here's what opening all the tabs looks like:
+
+![open-kanban-boards-in-tabs](https://github.com/ucsb-cs156/f23/assets/1119017/b33024c5-35c1-417c-be21-b835b259801c)
+
+
+Here's what to do on each kanban board:
 
 
 
