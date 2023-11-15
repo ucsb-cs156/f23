@@ -389,11 +389,18 @@ If you've already configured the kanban board links on this page (following the 
 
 Here's what opening all the tabs looks like:
 
-![open-kanban-boards-in-tabs](https://github.com/ucsb-cs156/f23/assets/1119017/b33024c5-35c1-417c-be21-b835b259801c)
+![open-each-kanban-board](https://github.com/ucsb-cs156/f23/assets/1119017/8de1f0d6-c6c6-41f3-ad15-0b310db37e0a)
 
 
 Here's what to do on each kanban board:
 
+1. Click `Settings` (upper right)
+2. Click `Manage Access` (left navbar)
+3. Find the ``Invite Collaborators` search field;  (or copy/paste) the team name (e.g. `f23-5pm-1`) into it
+4. Select the team, change `Role` to `Admin` in the dropdown, and click `Invite`
 
+Here's what that looks like:
+
+![set-each-kanban-board-permissions](https://github.com/ucsb-cs156/f23/assets/1119017/c8237706-30bb-4e44-a953-d8c3584f719d)
 
 </details>
