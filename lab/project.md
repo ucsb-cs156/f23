@@ -85,6 +85,11 @@ sections:
 # Links
 
 
+<details markdown="1">
+<summary markdown="1">Open this section for links to the legacy code project resources    
+</summary>
+
+
 {% for section in page.sections %}
 ## Section: {{ section.time }} ({{section.product}})
 
@@ -93,15 +98,6 @@ sections:
 |  {{teamName}} |  [ repo ]({{page.githubOrgUrl}}/{{repoName}}) |   [ github pages ]({{page.githubPagesUrl}}/{{repoName}}) | [ kanban ]({{page.githubProjectsUrl}}/{{team.kanban}}) | [ dokku prod ](https://{{section.productShort}}.dokku-{{team.dokku}}.cs.ucsb.edu) | [ dokku qa ](https://{{section.productShort}}-qa.dokku-{{team.dokku}}.cs.ucsb.edu) | {% endfor %}
 
 {% endfor %}
-
-<details markdown="1">
-<summary markdown="1">
-Open this section for links to the legacy code project resources    
-</summary>
-
-
-
-
   
 </details>
 
@@ -288,6 +284,14 @@ So, instead, we create independent repos in the course organization for the clas
 # Set up project channels
 
 In the Slack workspace, set up channels for each project:
+
+<img width="704" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/9a856d20-24e6-4f8e-b872-a84c2f47655b">
+
+<img width="562" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/fcb80862-6fce-45f9-9fc2-105598137e5b">
+
+<img width="559" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/f05d35ae-1ee0-49c0-8863-1024425b8168">
+
+You can click "Skip for Now" and add folks to the channels later, or invite the students and staff to add themselves to the channels.
 
 
 </details>
