@@ -9,9 +9,10 @@ layout: default
 parent: lab
 num: project
 nav_order: 300
-proj_courses_slack_url: tbd
-proj_happycows_slack_url: https://ucsb-cs156-s23.slack.com/archives/C058QUC16QP
-proj_gauchoride_slack_url: https://ucsb-cs156-s23.slack.com/archives/C0595EWELLA
+proj_courses_slack_url: https://ucsb-cs156-f23.slack.com/archives/C066057BBHA
+proj_happycows_slack_url: https://ucsb-cs156-f23.slack.com/archives/C065XJGBVL3
+proj_gauchoride_slack_url: tbd
+proj_organic_slack_url: https://ucsb-cs156-f23.slack.com/archives/C065H6A9VM5
 qxx: f23
 githubOrgUrl: https://github.com/ucsb-cs156-f23
 githubProjectsUrl: https://github.com/orgs/ucsb-cs156-f23/projects
@@ -293,5 +294,18 @@ In the Slack workspace, set up channels for each project:
 
 You can click "Skip for Now" and add folks to the channels later, or invite the students and staff to add themselves to the channels.
 
+Then, update the links at the top of this page to the project slack channels (in the front matter):
+
+Copy the link to the channel:
+
+<img width="708" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/aa9a8129-336b-4932-a995-cefb34f093bf">
+
+And then configure in the front matter of this page:
+
+```
+proj_courses_slack_url: https://ucsb-cs156-f23.slack.com/archives/C066057BBHA
+```
+
+Repeat for every project.
 
 </details>
