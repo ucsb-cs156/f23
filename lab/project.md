@@ -363,7 +363,21 @@ Next, put these numbers in the front matter of this page.  For example (only a p
 
 For each repo, visit the repo page and link the repo to the kanban board.
 
-For example:
+For example, on the repo page, click the `Projects` link:
+
+<img width="1115" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/bdce9655-1d26-4ff4-8c3d-ad3668b8fbd6">
+
+Find and click the `Link a Project` button:
+
+<img width="276" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/2b65960d-0306-47cb-86ee-3b89bbe0de37">
+
+Use the search box to find the project that matches the repo:
+
+<img width="586" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/dfc5a7d8-80c0-4b96-b026-8ca0585ba951">
+
+Click to link the repo to the project.
+
+
 
 
 
