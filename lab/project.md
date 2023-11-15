@@ -209,3 +209,39 @@ Links are provided below.
 | s23-7pm-3 | [repo](https://github.com/ucsb-cs156-s23/proj-courses-s23-7pm-3) | [pages](https://ucsb-cs156-s23.github.io/proj-courses-s23-7pm-3/) | [prod](https://proj-courses.dokku-11.cs.ucsb.edu) | [qa](https://proj-courses-qa.dokku-11.cs.ucsb.edu) |
 | s23-7pm-4 | [repo](https://github.com/ucsb-cs156-s23/proj-courses-s23-7pm-4) | [pages](https://ucsb-cs156-s23.github.io/proj-courses-s23-7pm-4/) | [prod](https://proj-courses.dokku-12.cs.ucsb.edu) | [qa](https://proj-courses-qa.dokku-12.cs.ucsb.edu) |
   -->
+
+
+# Staff Information
+
+Information in the dropdown below is intended for course staff.  Students are welcome to look at it, but it's really targetted at a different audience.
+
+<details markdown="1">
+<summary>
+Staff information for legacy code phase  
+</summary>
+
+# Creating the repos for the teams
+
+To set up repos for the legacy code project phase, use the <https://ucsb-cs-github-linker.herokuapp.com> tool.
+
+The menu option you want is "Teams // Create Team Repos":
+
+<img width="444" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/a354dd8d-6a1c-4c2c-a870-f8b15ab2d528">
+
+As an example, to create the repos for the `f23-5pm-.*` teams that are working on `proj-happycows`, fill in the form this way:
+
+<img width="632" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/29f11a9c-4272-43ac-88d6-ce3a3aa37cb8">
+
+Repeat for each group of teams and each project.
+
+We assign `Write` permission rather than `Admin` permission so that the staff can control the `main` branch with branch protection rules.
+
+# Why we don't do this with a fork
+
+We don't use the `fork` approach for this reason: If we created the team repos as forks, then every time students create a PR, the default would be a PR back to the main repo.  This would be
+fine if each of the teams was working on an independent set of tasks, but if the design is to have each of the teams work on the *same* set of tasks, then their PRs would clash and be redundant.
+
+So, instead, we create independent repos in the course organization for the class offering (e.g. <https://github.com/ucsb-cs156-f23>, or <https://github.com/ucsb-cs156-w24>, etc.) that are initially populated with the `main` branch of the repo from the <https://github.com/ucsb-cs156/> organization. 
+
+
+</details>
