@@ -513,5 +513,41 @@ for t in $teams; do
   echo "******* ${t} end ********"
 done
 ```
+## Special steps per project
+
+#### For courses
+
+You will need to generate a UCSB_API_KEY for each of the teams and share it with them on their slack channel.  They will need this key in order to set up their localhost deployment and their dokku instances.
+
+TODO: add or point to details.
+
+You will also need to set up a MongoDB database instance (or else give them instructions on how to do it themselves.)
+
+TODO: add or point to details.
+
+## Setting up Dokku Deployments
+
+We typically set up the following deployments as staff:
+
+* Prod and qa deployments on dokku-00 for the repos in <https://github.com/ucsb-cs156>, e.g.
+  * <https://github.com/ucsb-cs156/proj-happycows> as <https://happycows.dokku-00.cs.ucsb.edu> and <https://happycows-qa.dokku-00.cs.ucsb.edu> 
+  * <https://github.com/ucsb-cs156/proj-organic> as <https://organic.dokku-00.cs.ucsb.edu> and <https://organic-qa.dokku-00.cs.ucsb.edu>
+  * <https://github.com/ucsb-cs156/proj-courses> as <https://courses.dokku-00.cs.ucsb.edu> and  <https://courses-qa.dokku-00.cs.ucsb.edu>
+* One prod and qa deployment per team
+  * The prod deployments are intended to track the main branch.  It would be desirable, if possible, to set up a cron job to automatically deploy these periodically, or a github action that redeploys them whenever a PR is merged to main, if either or both of those can be done without creating a security issue.  The names are, for example:
+    *  <https://happycows.dokku-01.cs.ucsb.edu>
+    *  <https://happycows.dokku-02.cs.ucsb.edu>
+    *  etc.
+* The qa deployments are intended for staff use when reviewing PRs.  
+    *  <https://happycows-qa.dokku-01.cs.ucsb.edu>
+    *  <https://happycows-qa.dokku-02.cs.ucsb.edu>
+    *  etc.  
+
+The students are then encouraged to set up personal deployments using the project name and their github id for personal dev testing, and demoing PRs under review. For example:
+*  <https://happycows-cgaucho.dokku-01.cs.ucsb.edu>
+*  <https://happycows-ldelplaya.dokku-01.cs.ucsb.edu>
+*  etc.
+
+Students may create additional deployments if needed.
 
 </details>
