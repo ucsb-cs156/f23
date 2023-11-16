@@ -83,6 +83,12 @@ sections:
           kanban: 54
 ---
 
+# F23 Legacy Project Launch
+
+On Wed November 15, 2024, in section, we'll launch the legacy code projects.
+
+This page describes how that will roll out.
+
 # Links
 
 
@@ -111,6 +117,7 @@ In this project:
 * The list of issues contains more work than we expect you will need to complete
   in order to get a perfect score on the project, so don't worry that you have
   to finish them all; *you do not have to finish them all*.
+* Some of the issues are "epics", which is a higher level than an issue: it's a group of related issues. It is the responsibility of the team members to take the epic and create smaller issues from it, copying/pasting the relevant parts and the editing the file to turn it into smaller single issues.  Each of those should usually be merged in its own separate small PR, not as one giant PR at the end.
 * Each issue you complete earns points for your team after it is:
   * code reviewed and approved by a member of your team that didn't work on it
   * code reviewed and approved by a member of the course staff (instructor, TA, LA)
@@ -138,7 +145,6 @@ In this project:
 
 # Points beyond 100
 
-
 If you accumulate more than 100 project points, the additional points may count as extra credit, at a rate of 1 extra credit point for each 10 points over 100 earned, up to a maximum project grade of 110.  For example:
 
 | Points Earned | Project Grade |
@@ -158,23 +164,14 @@ Your final project grade is maxed out at 110 total project points--any points in
 
 # Sprint Planning for Legacy Code project
 
-Each team already has a Kanban board setup for the legacy code project (see links below).   However unlike in your team01, team02, and team03 projects, it's up to you to populate this yourself.
+Each team already has a Kanban board setup for the legacy code project (see links above).   However unlike in your team01, team02, and team03 projects, it's up to you to populate this yourself.
 
-| 9am | 10am | 
-|-----|-----|
-| [f23-9am-1]({{page.f23_9am_1}}) | [f23-10am-1]({{page.f23_10am_1}}) | 
-| [f23-9am-2]({{page.f23_9am_2}}) | [f23-10am-2]({{page.f23_10am_2}}) | 
-| [f23-9am-3]({{page.f23_9am_3}}) | [f23-10am-3]({{page.f23_10am_3}}) | 
-|                         | [f23-10am-4]({{page.f23_10am_4}}) | 
-
-
-You should add the `In Review` column if it is not already present.
-
-Then, you should populate your todo column with issues, start assigning them to your team, and start working.   I'll cover where these issues come from in a moment.
+Populate your todo column with issues, start assigning them to your team, and start working.   
 
 You may not get through all of the Sprint planning today, but by the end of discussion section on Wednesday:
 * Each of the six team members should be assigned to an issue in the todo column
 * The previous bullet point shoudl *remain true* until your team reaches 100 points
+* This may require breaking issues out of an epic.  In some cases, you may need to assign different team members to work on backend and frontend issues from the same epic in parallel, or pair-program on some of the early issues.
 
 Teams accumulate points when PRs are merged into main
 * That is only done by the course staff for these projects.
@@ -200,29 +197,17 @@ Points belong to the whole team, not to individuals
 
 For issues, you'll need to do a bit more work that in the previous team projects.
 
-Here is where you'll get issues from:
-* The three starter code repos have issues lists (as shown in the table below).
-* These have been copied to your repo
+Each of your repos is populated with an issues list (see the issues tab).
+
 * These issues come in different sizes 
   - A handful of these may be small easy issues. 
   - However, many (most?) of these issue *may not translate one-to-one into issues for your Kanban board*.
   - Instead, you are encouraged to try to *break the larger ones down into smaller issues*, each of which could be a single PR; more on this below.
   - This Sprint Planning meeting is where you can do some of that.
   - You may even need to add "issues about issues", e.g. an issue that says: "break issue #34 from proj-happycows into multiple issues on our team's repo".  Such an issue doesn't result in a PR, but it can still be moved across the Kanban board from `To Do`, to `In Progress`, to `In Review`, to `Done`.
-* Your team's own ideas for features, based on the notes your team took last Wednesday during meetings with
-  - Mike Fogelsanger for proj-gauchoride
-  - Prof. Mattanjah deVries for proj-happycows
-  <!-- - Prof. Phill Conrad for proj-courses -->
-
-## Existing issues
+* Your team's own ideas for features; these should be vetted with a staff member before you get too far into working on them, to ensure that they are aligned with user needs.   **Issues that are not aligned with customer will not be merged into main and will not earn points** so be sure that you vet your issues with staff if they are ones you came up with yourself.
 
 Staff may add to these issues over the course of the project; when we do, we'll post an announcement in the project slack channels.
-
-| Project |  Starter Code Repo | Issues Link | Project Slack Channel |
-|---------|--------------------|-------------|-----------------------|
-| proj-gauchoride | [Starter Code Repo](https://github.com/ucsb-cs156/proj-gauchoride) | [Issues](https://github.com/ucsb-cs156/proj-gauchoride/issues) | [`#proj-gauchoride`]({{page.proj_gauchoride_slack_url}}) |
-| proj-happycows | [Starter Code Repo](https://github.com/ucsb-cs156/proj-happycows) | [Issues](https://github.com/ucsb-cs156/proj-happycows/issues) | [`#proj-happycows`](https://ucsb-cs156-s23.slack.com/archives/C058QUC16QP) |
-<!-- | proj-courses | [Starter Code Repo](https://github.com/ucsb-cs156/proj-courses) | [Issues](https://github.com/ucsb-cs156/proj-courses/issues) |  [`#proj-courses`](https://ucsb-cs156-s23.slack.com/archives/C058BPFQZ42) | -->
 
 ## You are encouraged to keep each PR small.
 
@@ -238,17 +223,9 @@ Each of these could (and arguably should be) a separate PR!  This helps to keep 
 
 Still, you may need to document in the issues what the dependencies are (e.g. "do issue 12 and 13 before starting 14").
 
-# Legacy Code Background information
+# Setting up dokku prod and qa instances
 
-For each of the teams, there is already:
-* A repo, seeded with the starter code from previous quarters
-* A prod and qa dokku instance
-* A Kanban board
-
-For each, I've set up Google OAuth client id and client secret.
-<!-- I've also set up the `UCSB_API_KEY` and `MONGODB_URI` for the `courses` project.   -->
-You are welcome to use `dokku config:show app-name` to get these values and use them for your localhost setup.
-
+The staff will work with you to set up dokku prod and qa instances; that will happen on Thursday November 16.
 
 # Staff Information
 
