@@ -236,7 +236,27 @@ Information in the dropdown below is intended for course staff.  Students are we
 Staff information for legacy code phase  
 </summary>
 
-# Creating the repos for the teams
+## Preparing starter repos
+
+Each of the starter repos needs the following preparation
+
+### Set CODEOWNERS
+
+Put the github ids of the instructor, TAs and LAs (anyone that can merge into main) into this file:
+
+<img width="1094" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/1225e0ed-016d-45c7-a1ee-37b765b95a91">
+
+### Be sure issues you want students to work on are tagged 
+
+Check the issues list. Make a tag (e.g. `f23`) for the issues you want the students to work on.
+
+### Set tag in workflow 99
+
+In workflow 99, be sure that the `tag` is set to the one you are using for issues you want the students to work on, e.g. `f23`
+
+<img width="697" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/e4317f4e-0bac-4fe1-a6b2-44f5e71e32dd">
+
+## Creating the repos for the teams
 
 To set up repos for the legacy code project phase, use the <https://ucsb-cs-github-linker.herokuapp.com> tool.
 
