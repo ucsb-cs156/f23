@@ -246,6 +246,12 @@ Put the github ids of the instructor, TAs and LAs (anyone that can merge into ma
 
 <img width="1094" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/1225e0ed-016d-45c7-a1ee-37b765b95a91">
 
+### Set up branch protections
+
+Instructions for setting up branch protections can be found here:
+
+<https://ucsb-cs156.github.io/cs156-guide/1-legacy-code-projects/3-setting-up-projects.html#establishing-branch-protections>
+
 ### Be sure issues you want students to work on are tagged 
 
 Check the issues list. Make a tag (e.g. `f23`) for the issues you want the students to work on.
