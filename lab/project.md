@@ -474,5 +474,47 @@ Here's what that looks like:
 
 ![link-to-gh-pages-from-home-page](https://github.com/ucsb-cs156/f23/assets/1119017/75c12efc-b94a-466c-95d9-7fc2bf4bbedb)
 
+## Populate the issues
+
+First, check that the issue for the project are the ones you want, i.e. that you've marked
+the issues in the starter repo (e.g. <https://github.com/ucsb-cs156/proj-happycows> ) that you want
+the students to work on with a tag such as `f23`.
+
+Second, check that workflow 99 has the correct tag in it (near the top).  (We should probably do this before we populate the repos!  If you find that you didn't do this, there's a script below to fix this; or you can just fix it manually in each cloned repo):
+
+Finally, run workflow 99 to populate the issues list:
+
+<img width="1093" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/3d55bbc8-03e8-43e4-84fb-50d29aa3b989">
+
+When it finishes, the issues that were tagged with for example `f23` should appear in the issues list.  Student can then add them to the Kanban board as they see fit.
+
+## Updating the repos
+
+If it's necessary to pull code from the starter repo a second time, this script can be used:
+
+```sh
+#!/bin/bash
+
+teams=" \
+ f23-5pm-1 \
+ f23-5pm-2 \
+ f23-5pm-3 \
+ f23-5pm-4"
+
+project=happycows
+starter=https://github.com/ucsb-cs156/proj-${project}.git
+
+for t in $teams; do
+  echo "******* team: $t start ********"
+  r=proj-${project}-${t}
+  cd $r
+  git checkout main
+  git pull origin main
+  git pull starter main
+  git push origin main
+  cd ..
+  echo "******* ${t} end ********"
+done
+```
 
 </details>
