@@ -433,5 +433,46 @@ for t in $teams; do
   echo "******* ${t} end ********"
 done
 ```
+## Set up Github Pages
+
+For the next step, we suggest opening each repo it its own tab (similar to how we opened a tab for each kanban board above).
+
+For each repo:
+* Go to the `Actions` tab
+* Select the job `02-gh-pages-rebuild-part-1`
+* Trigger it to run manually from the `main` branch
+
+Here's what that looks like.  Note that as shown in the animation, **there is a short delay between when you click to run and when the job shows up**.  Don't make the mistake of being too impatient, and then ending up running the job twice.
+
+![trigger-job-02](https://github.com/ucsb-cs156/f23/assets/1119017/c82ce0a8-9fb4-44e6-b472-a32adb47c46c)
+
+Job 02 should trigger job 04 to run, to build the gh-pages branch; you'll then need to manually enable github pages (which we will do in the next step.)
+
+It is not unusual to have a few failures on the first few runs of job 02 or job 04; just re-run the job if that happens.   If it fails repeatedly, you may have a real problem, but typically just re-running takes care of these as long as the repo is in good shape.
+
+## Enabling github pages
+
+As soon as jobs 02/04 complete (even partially), a gh-pages branch will be established.  You can then enable github pages for each repo by following these steps:
+
+1. Go to `Settings` for the repo (top nav, right most link)
+2. Go to `Pages` (left nav, halfway down)
+3. Under `Source` select `Deploy from a branch`
+4. Under branch select `gh-pages` and for directory select `root`.  If `gh-pages` is not present, wait for job 02 and job 04 to run and establish the branch.
+
+Here's what that looks like:
+![setup-github-pages](https://github.com/ucsb-cs156/f23/assets/1119017/e3a7f87c-afe2-4544-9170-9d378d0f7bbc)
+
+## Set link to github pages on repo
+
+For each repo, select the checkbox on the main page to set up a link to the github pages site by following these steps:
+
+1. Navigate to main page of the repo
+2. Click the Gear icon at right near top of page next to `About`
+3. Click the checkbox on the form next to `Use your GitHub Pages website`
+
+Here's what that looks like:
+
+![link-to-gh-pages-from-home-page](https://github.com/ucsb-cs156/f23/assets/1119017/75c12efc-b94a-466c-95d9-7fc2bf4bbedb)
+
 
 </details>
