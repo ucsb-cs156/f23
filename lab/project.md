@@ -519,7 +519,25 @@ done
 
 You will need to generate a UCSB_API_KEY for each of the teams and share it with them on their slack channel.  They will need this key in order to set up their localhost deployment and their dokku instances.
 
-TODO: add or point to details.
+To create a UCSB_API_KEY, you'll need an account at <https://developer.ucsb.edu>.  To create the key, follow these steps:
+
+First, navigate to the apps page:
+
+<img width="764" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/a718f282-1da5-4584-b2e8-db39f1d8e8fe">
+
+Click `Add App`
+
+Fill in the team name.  You can leave the rest blank, then scroll down to the APIs checkboxes.
+
+<img width="987" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/69b9ba66-bc7d-497a-963c-3f65a3d8b2bf">
+
+Click to choose the APIs to enable.  
+
+<img width="916" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/79008e02-2674-40bd-a8b1-639466fc39ee">
+
+Then click "Add App" at the bottom:
+
+<img width="947" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/9a336302-351e-48d7-8785-3663326d1db0">
 
 You will also need to set up a MongoDB database instance (or else give them instructions on how to do it themselves.)
 
