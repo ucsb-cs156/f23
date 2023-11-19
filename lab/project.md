@@ -100,9 +100,9 @@ This page describes how that will roll out.
 {% for section in page.sections %}
 ## Section: {{ section.time }} ({{section.product}})
 
-| Team | Repo | Github Pages | Kanban | Dokku Prod | Dokku qa |
-|------|------|--------------|--------|------------|----------|{% for team in section.teams %}{% capture teamName %}{{page.qxx}}-{{section.time}}-{{ team.num }}{% endcapture %}{% capture repoName %}{{section.product}}-{{teamName}}{% endcapture %}
-|  {{teamName}} |  [ repo ]({{page.githubOrgUrl}}/{{repoName}}) |   [ github pages ]({{page.githubPagesUrl}}/{{repoName}}) | [ kanban ]({{page.githubProjectsUrl}}/{{team.kanban}}) | [ dokku prod ](https://{{section.productShort}}.dokku-{{team.dokku}}.cs.ucsb.edu) | [ dokku qa ](https://{{section.productShort}}-qa.dokku-{{team.dokku}}.cs.ucsb.edu) | {% endfor %}
+| Team | Repo | PRs | Github Pages | Kanban | Dokku Prod | Dokku qa |
+|------|------|-----|--------------|--------|------------|----------|{% for team in section.teams %}{% capture teamName %}{{page.qxx}}-{{section.time}}-{{ team.num }}{% endcapture %}{% capture repoName %}{{section.product}}-{{teamName}}{% endcapture %}
+|  {{teamName}} |  [ repo ]({{page.githubOrgUrl}}/{{repoName}}) |   [ PRs ]({{page.githubOrgUrl}}/{{repoName}}/pulls) |  [ github pages ]({{page.githubPagesUrl}}/{{repoName}}) | [ kanban ]({{page.githubProjectsUrl}}/{{team.kanban}}) | [ dokku prod ](https://{{section.productShort}}.dokku-{{team.dokku}}.cs.ucsb.edu) | [ dokku qa ](https://{{section.productShort}}-qa.dokku-{{team.dokku}}.cs.ucsb.edu) | {% endfor %}
 
 {% endfor %}
   
