@@ -549,6 +549,41 @@ You will also need to set up a MongoDB database instance (or else give them inst
 
 TODO: add or point to details.
 
+
+## Updating Slack Channel topics
+
+For each team channel, update the "Topic" to be initially this (changing the link in each case).  This gives you a place to keep track of the total points assigned, and a convenient link to 
+check the PR queue:
+e
+```
+0/100 pts - PR Queue: https://github.com/ucsb-cs156-f23/proj-happycows-f23-5pm-1/pulls
+```
+
+## Cycling through the team channels
+
+Throughout the legacy code phase, the staff should cycle through the 12 to 16 team channels, checking the PR queues.
+
+The pseudocode for the (manual) procedure is something like this:
+```
+for team in teams:
+  From team's slack channel, click link to team's PRs
+  for PR in PRS:
+     check(PR) (see process below)
+
+def check(PR):   
+  if PR (is not green on CI) or (does not have a peer code review) or (has other problem preventing staff review)
+    add red warning labels as needed; return
+  perform code review
+  if code review passes:
+    assign points (using a gold colored label)
+    merge PR
+    update topic on team channel
+```
+
+When updating the topic of the team channel, add the points in to the `0/100 pts` part.
+
+If it's the first time that the team had a merged PR, add a link to the PRs that were merged (e.g. `https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-1/pulls?q=is%3Apr+is%3Amerged+`, and add a bookmark to the full PR queue on the team channel.
+            
 ## Setting up Dokku Deployments
 
 We typically set up the following deployments as staff:
