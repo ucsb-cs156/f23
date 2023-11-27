@@ -11,4 +11,4 @@ nav_order: 0
 
 ## Countdown to PR deadline
 
-<iframe width="300" height="154" src="https://w2.countingdownto.com/5160390" frameborder="0"></iframe>
+<iframe width="552" height="284" src="https://w2.countingdownto.com/5160390" frameborder="0"></iframe>
