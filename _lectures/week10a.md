@@ -10,9 +10,13 @@ slides:
 
 * Final CATME survey should be released today
 * Post survey should be released today
-* Please fill out your ESCIs (course evaluations)
+* Please fill out your Course evaluations!
 
-# Today:
+<details markdown="1">
+<summary>
+The information here is for teams that haven't reached 100 points. Fortunately, that applies to zero teams in F23; but I'm keeping it here
+  in case we copy this page for future quarters.
+</summary>
 
 If your team isn't yet at 100 points:
 
@@ -20,15 +24,10 @@ If your team isn't yet at 100 points:
 * Look at the PRs you have and get everything code reviewed that's ready to be code reviewed
 * Work to get things merged
 
-If your team is already at 100 points but not yet at 110 or more:
+</details>
 
-* Discuss as a team: what are you your best candidates from the remaining PRs to get you there?
-* Make a post with the team consensus and tag Prof. Conrad
-* List the top three contenders (with links to the PRs) and give a brief explanation of where each one stands.
+# Today: Videos.
 
-If your team is at 110 points or more:
-
-* Start planning your video (see below).
 
 # Final CATME survey, and the end of quarter post-survey
 
@@ -39,9 +38,6 @@ If you did not fill out the pre-survey, but would still like to do so for extra 
 and/or to offer your informed consent to allow us to use your data for research,
 let me know via Slack DM and I'll send you the link.
 
-# Thursdays Class: For presentations
-
-Please plan to participate synchronously.
 
 
 <details markdown="1">
