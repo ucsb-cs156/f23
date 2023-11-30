@@ -8,6 +8,8 @@ parent: lectures
 slides: 
 ---
 
+{% include drop_down_style.html %}
+
 # Final Deadlines
 
 * Release notes: due midnight Friday
