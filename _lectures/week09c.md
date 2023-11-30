@@ -23,7 +23,6 @@ After 3:15pm today, the only work accepted for credit will be work necessary to 
 You can start on your team's final video presentation and the release notes for your work (see below).  You can also read about the final exam.
 
 
-{% include final_exam.md %}
 
 {% include release_notes.md %}
 
@@ -31,3 +30,4 @@ You can start on your team's final video presentation and the release notes for 
 
 {% include example_videos.md %}
 
+{% include final_exam.md %}
