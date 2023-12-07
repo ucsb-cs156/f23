@@ -79,13 +79,17 @@ All of this will help all of us get done with this final project (and the gradin
 
 </details>
   
-
+# About the Release Notes
 
 {% include release_notes.md %}
+
+# About the Final Presentations
 
 {% include final_presentation.md %}
 
 {% include example_videos.md %}
+
+# About the Final Exam
 
 {% include final_exam.md %}
 
